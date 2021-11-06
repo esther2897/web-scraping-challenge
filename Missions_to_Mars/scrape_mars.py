@@ -40,12 +40,7 @@ def scrape():
 
     new_news["table"] = str(table)
 
-    hemisphere_image_urls = [
-    {"title": "Valles Marineris Hemisphere", "img_url": "https://marshemispheres.com/images/b3c7c6c9138f57b…b9c43e3a48_valles_marineris_enhanced.tif_full.jpg"},
-    {"title": "Cerberus Hemisphere", "img_url": "https://marshemispheres.com/images/f5e372a36edfa389625da6d0cc25d905_cerberus_enhanced.tif_full.jpg"},
-    {"title": "Schiaparelli Hemisphere", "img_url": "https://marshemispheres.com/images/3778f7b43bbbc89…3cfabb3613ba93_schiaparelli_enhanced.tif_full.jpg"},
-    {"title": "Syrtis Major Hemisphere", "img_url": "https://marshemispheres.com/images/b3c7c6c9138f57b…b9c43e3a48_valles_marineris_enhanced.tif_full.jpg"},
-    ]
+    hemisphere_image_urls = [{'title': 'Valles Marineris Hemisphere', 'img_url': 'https://marshemispheres.com/images/valles_marineris_enhanced-full.jpg'}, {'title': 'Cerberus Hemisphere', 'img_url': 'https://marshemispheres.com/images/f5e372a36edfa389625da6d0cc25d905_cerberus_enhanced.tif_full.jpg'}, {'title': 'Schiaparelli Hemisphere', 'img_url': 'https://marshemispheres.com/images/schiaparelli_enhanced-full.jpg'}, {'title': 'Syrtis Major Hemisphere', 'img_url': 'https://marshemispheres.com/images/syrtis_major_enhanced-full.jpg'}]
     new_news["images"] = hemisphere_image_urls
     return new_news
 
